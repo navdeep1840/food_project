@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* body css */
+body {
+  background-color: #ffc700;
+  font-family: "Glory", sans-serif;
+}
+/* navbar starts */
+.brand__logo {
+  width: 70%;
+  margin: 1px;
+}
+.nav__list {
+  display: none;
+}
+.navbar {
+  margin-top: 3.2%;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  height: 11vh;
+  width: 93.5%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  border-radius: 5px 5px 0px 0px;
+
+  position: sticky;
+  align-items: center;
+  background-color: #fffff0;
+}
+
+/* main section  */
+.main {
+  background-color: white;
+  background-image: url("assets/top-view-salad-with-feta-cheese-cutting-board-with-copy-space 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  width: 93.5%;
+  justify-content: space-around;
+  height: 75vh;
+  align-items: center;
+  position: relative;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 2rem;
+}
+
+#main__quote {
+  color: olivedrab;
+  font-size: 1em;
+}
+#main__tagline {
+  font-size: 2em;
+}
+
+/* big order button in main section */
+.order-btn {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ffc700;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+.order-btn:hover {
+  background-color: #ffc700;
+  transition: all ease 0.6s;
+  width: 250px;
+  height: 70px;
+  border-radius: 25px;
+  font-size: 2em;
+}
+
+/* menu starts here */
+
+.menu {
+  background-color: #fffff0;
+  height: 40vh;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 93.5%;
+  border-radius: 10px;
+}
+#our_menu h1 {
+  margin-top: 1rem;
+  height: 6vh;
+  width: 93.5%;
+  font-size: 2em;
+}
+
+.menu__box {
+  background-color: #fffff0;
+  height: 27vh;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  width: 93.5%;
+}
+/* menu buttons */
+.menu__btn {
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ffc700;
+  border-radius: 50px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  border: #ffc700;
+}
+.menu__btn:hover {
+  background-color: darkolivegreen;
+  transition: all ease 0.6s;
+  width: 75px;
+  height: 135px;
+  border-radius: 50px;
+  font-size: 1.3em;
+}
+
+/*  section-3 why to visit us */
+.reasons {
+  height: 80vh;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  background-color: white;
+  background-image: url("./assets/800px_COLOURBOX7084548.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 85%;
+
+  display: flex;
+  flex-direction: row;
+  width: 93.5%;
+  margin-bottom: 1rem;
+}
+
+.why__us {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  border-radius: 10px 10px 0px 0px;
+}
+.why__us_h1 {
+  font-size: 2.3em;
+  height: 10vh;
+  font-weight: 900;
+}
+/*  section-3 parts */
+.point1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 15vh;
+  width: 300px;
+  border-radius: 45px;
+  padding: 1rem;
+  justify-content: center;
+  background-color: yellowgreen;
+}
+.point2 {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  width: 300px;
+  border-radius: 45px;
+  justify-content: center;
+
+  padding: 1rem;
+
+  align-self: center;
+
+  background-color: white;
+}
+.point3 {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  width: 300px;
+  border-radius: 45px;
+
+  padding: 1rem;
+
+  justify-content: center;
+
+  background-color: white;
+}
+/*  specials section  */
+
+.premium {
+  background-color: #fffff0;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  position: relative;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+.premium_items {
+  width: 100%;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.premium_card {
+  flex-basis: 30%;
+  background-color: #fffff0;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  justify-content: space-evenly;
+}
+.premium_menu_img {
+  width: 100%;
+  border-radius: 6px 6px 0px 0px;
+  align-self: center;
+}
+.premium_title {
+  padding: 1rem;
+  text-align: left;
+  color: black;
+  align-self: center;
+  padding-bottom: 1rem;
+}
+.premium_title h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 900;
+}
+
+/*  user review section */
+.user_review {
+  background-color: #fffff0;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+  width: 93.5%;
+}
+
+.user_rating {
+  display: none;
+}
+
+.review_box {
+  padding: 0.5rem;
+  width: auto;
+}
+.review_avator {
+  border-radius: 50%;
+  width: 15%;
+}
+.review1 p {
+  padding: 00.5rem;
+}
+
+.review1 {
+  background-color: yellowgreen;
+
+  border-radius: 2rem;
+  display: flex;
+  text-align: center;
+  padding: 0.5rem;
+}
+.review2 p {
+  padding: 0.5rem;
+}
+.review2 {
+  background-color: #ffc700;
+
+  border-radius: 2rem;
+  display: flex;
+  text-align: center;
+
+  padding: 0.5rem;
+}
+.review3 p {
+  padding: 0.5rem;
+}
+.review3 {
+  background-color: #ffc700;
+
+  border-radius: 2rem;
+  display: flex;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.email__subcribe__input__field {
+  display: flex;
+  align-items: center;
+}
+
+.email__input {
+  border: 1px solid #ffc700;
+  background-color: #fcedf0;
+  color: black;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.email__input::placeholder {
+  color: white;
+}
+
+.button__primary {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+
+  font-weight: 600;
+  background-size: 200% auto;
+  color: #ffc700;
+
+  border-radius: 0.5px;
+  display: block;
+}
+.button__primary:hover {
+  cursor: pointer;
+  color: #00bcd4;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem 1rem 0 0;
+  margin-top: 1rem;
+}
+
+.quote__container {
+  position: relative;
+
+  align-items: center;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 93.5%;
+  border-radius: 0px 0px 5px 5px;
+  background: url("./assets/1000_F_125123133_3reb4qSyXMF8yEa8rVuAofGJEpUvZYIT.jpg")
+    center center / cover no-repeat;
+}
+
+.quote_image_text {
+  color: #fff;
+
+  margin: 0 1rem;
+  text-align: center;
+}
+
+/* to make the website responsive */
+@media (min-width: 720px) {
+  .nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__list li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 10px;
+    padding: 0px 30px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 530;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  #input {
+    background-color: rgb(231, 226, 226);
+  }
+  .order-btn-nav {
+    display: none;
+  }
+
+  .main__text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1px;
+    padding-right: 25rem;
+  }
+  #main__quote {
+    color: olivedrab;
+    font-size: 1.1em;
+  }
+  #main__tagline {
+    font-size: 4em;
+  }
+  .menu {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .menu__btn {
+    width: 75px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ffc700;
+    border-radius: 50px;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    border: #ffc700;
+  }
+  .menu__btn:hover {
+    background-color: darkolivegreen;
+    transition: all ease 0.6s;
+    width: 100px;
+    height: 200px;
+    border-radius: 50px;
+    font-size: 1.3em;
+  }
+  .why__us {
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+  }
+  .why__us_h1 {
+    font-size: 3.5em;
+  }
+
+  .point1 {
+    height: 85px;
+    width: 450px;
+    box-shadow: 5px 10px;
+  }
+  .point2 {
+    height: 85px;
+    width: 450px;
+    box-shadow: 5px 10px;
+  }
+  .point3 {
+    height: 85px;
+    width: 450px;
+    box-shadow: 5px 10px;
+  }
+  .premium {
+    display: flex;
+    flex-direction: column;
+  }
+  .premium__items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+  }
+  .premium__text {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .premmium_card {
+    display: flex;
+    flex-basis: 28%;
+    background-color: white;
+    border-radius: 6px;
+  }
+  .premium_menu_img {
+    width: 80%;
+  }
+  .review_avator {
+    border-radius: 50%;
+    width: 15%;
+  }
+
+  .review1 {
+    background-color: yellowgreen;
+    height: 80px;
+
+    border-radius: 2rem;
+    display: flex;
+    text-align: justify;
+    padding: 0.6rem;
+  }
+  .review2 {
+    background-color: #ffc700;
+
+    height: 80px;
+
+    border-radius: 2rem;
+    display: flex;
+    text-align: justify;
+    padding: 0.6rem;
+  }
+  .review3 {
+    background-color: #ffc700;
+    height: 80px;
+
+    border-radius: 2rem;
+    display: flex;
+    text-align: justify;
+    padding: 0.6rem;
+  }
+  .review {
+    display: flex;
+    justify-content: space-around;
+  }
+  .user_rating {
+    display: inline;
+    justify-content: center;
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+
+  .bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04aa6d;
+  }
+  .bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196f3;
+  }
+  .bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+  }
+  .bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+  }
+  .bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+  }
+}
